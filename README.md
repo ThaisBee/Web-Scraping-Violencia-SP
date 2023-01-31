@@ -18,7 +18,9 @@ As constantes:
 * MUNICIPIO
 * DELEGACIA 
 
-devem ser inseridas no arquivo main.py para gerar a tabela escolhida.
+devem ser inseridas no arquivo main.py para gerar a tabela escolhida. 
+
+Observação: Por enquanto o programa apenas gera tabelas com dados de frequência mensal.
 
 ## Linguagem de programação usada
 
