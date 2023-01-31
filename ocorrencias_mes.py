@@ -3,8 +3,6 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 
-
-
 def ocorrencias_mes(
     url: str,
     VIEWSTATE: str,
