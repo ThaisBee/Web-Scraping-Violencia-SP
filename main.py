@@ -15,12 +15,7 @@ def main():
     VIEWSTATE = inicial_data.viewstate
     EVENTVALIDATION = inicial_data.eventvalidation
 
-    # Constantes para o request
-    # Consulte o disiconarios:
-    # dict_anos, dict_regioes, dict_municipios, dict_delegacia
-    # para saber as informações correspondentes aos números passados
-
-    
+    # Constantes para o request   
     ANO = 'Todos'
     REGIAO = 'Capital'
     MUNICIPIO = 'São Paulo'
