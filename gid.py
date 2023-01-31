@@ -18,7 +18,7 @@ class GetInicialData:
 
     def _creates_a_dictionary(self, soup: BeautifulSoup, name: str) -> dict:
         list = soup.find("select", {"name": name}).find_all("option")
-        dictio = {x["value"]: x.text for x in list}
+        dictio = {x.text: x["value"] for x in list}
         return dictio
 
     def get_data_fom_web(self) -> None:
